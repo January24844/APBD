@@ -9,13 +9,13 @@ return;
 
 static double getAvg(int[] arr)
 {
-    int sum = 0;
+    int suma = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        sum += arr[i];
+        suma += arr[i];
     }
 
-    return sum / arr.Length;
+    return suma / arr.Length;
 }
 static int getMax(int[]arr)
 {
