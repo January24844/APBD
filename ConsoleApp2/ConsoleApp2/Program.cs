@@ -9,10 +9,10 @@ return;
 
 static double getAvg(int[] arr)
 {
-    int sum = 0;
+    int summ = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        sum += arr[i];
+        summ += arr[i];
     }
 
     return sum / arr.Length;
