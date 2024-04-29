@@ -1,6 +1,0 @@
-@WarehouseRestApi_HostAddress = http://localhost:5069
-
-GET {{WarehouseRestApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
